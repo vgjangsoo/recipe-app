@@ -3,6 +3,7 @@ import Recipe from './Recipe';
 import './App.css';
 
 const App = () => {
+  // API keys from .ENV
   const APP_ID = process.env.REACT_APP_ID;
   const APP_KEY = process.env.REACT_APP_KEY;
 
